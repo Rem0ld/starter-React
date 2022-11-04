@@ -13,7 +13,7 @@ export function Counter() {
       <div className="flex items-center space-x-4">
         <button
           type="button"
-          className="h-26 my-4 w-52 rounded border border-solid border-white px-4 py-3"
+          className="h-26 my-4 w-52 rounded border border-solid px-4 py-3"
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
         >
@@ -22,7 +22,7 @@ export function Counter() {
 
         <button
           type="button"
-          className="h-26 my-4 w-52 rounded border border-solid border-white px-4 py-3"
+          className="h-26 my-4 w-52 rounded border border-solid px-4 py-3"
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
         >
